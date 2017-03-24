@@ -1,3 +1,9 @@
 [submodule "bundle/toml"]
 	path = bundle/toml
 	url = https://github.com/cespare/vim-toml
+[submodule "bundle/riv.vim"]
+	path = bundle/riv.vim
+	url = https://github.com/Rykka/riv.vim.git
+[submodule "bundle/vim-arduino"]
+	path = bundle/vim-arduino
+	url = https://github.com/stevearc/vim-arduino
