@@ -1,13 +1,12 @@
 " color stuff
 colorscheme seoul256
 set background=dark
-sy on
+syntax on
 
 " formatting
 set tabstop=4
 set softtabstop=0 noexpandtab
 set shiftwidth=4
-filetype plugin indent on
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " look and feel
@@ -23,3 +22,20 @@ set foldnestmax=10
 
 " pathogen
 execute pathogen#infect()
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'fatih/vim-go'
+Plugin 'Valloric/YouCompleteMe'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
