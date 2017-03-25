@@ -35,6 +35,9 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'cespare/vim-toml'
+Plugin 'Rykka/riv.vim'
+Plugin 'stevearc/vim-arduino'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
