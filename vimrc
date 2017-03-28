@@ -20,25 +20,14 @@ set foldenable
 set foldlevelstart=10
 set foldnestmax=10
 
-" pathogen
-execute pathogen#infect()
+" vim-plug
+call plug#begin()
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
+Plug 'cespare/vim-toml'
+Plug 'Valloric/YouCompleteMe'
+Plug 'stevearc/vim-arduino'
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'Rykka/riv.vim', { 'for': 'rst' }
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-Plugin 'fatih/vim-go'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'cespare/vim-toml'
-Plugin 'Rykka/riv.vim'
-Plugin 'stevearc/vim-arduino'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+call plug#end()
