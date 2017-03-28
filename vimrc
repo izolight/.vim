@@ -29,6 +29,7 @@ Plug 'stevearc/vim-arduino'
 Plug 'junegunn/seoul256.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'will133/vim-dirdiff'
 
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'Rykka/riv.vim', { 'for': 'rst' }
