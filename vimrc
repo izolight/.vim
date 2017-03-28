@@ -26,6 +26,9 @@ call plug#begin()
 Plug 'cespare/vim-toml'
 Plug 'Valloric/YouCompleteMe'
 Plug 'stevearc/vim-arduino'
+Plug 'junegunn/seoul256.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
 
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'Rykka/riv.vim', { 'for': 'rst' }
