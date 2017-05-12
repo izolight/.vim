@@ -30,8 +30,9 @@ Plug 'junegunn/seoul256.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 Plug 'will133/vim-dirdiff'
+Plug 'vim-scripts/DrawIt'
 
-Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'fatih/vim-go'
 Plug 'Rykka/riv.vim', { 'for': 'rst' }
 
 call plug#end()
